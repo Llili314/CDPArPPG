@@ -9,6 +9,18 @@ pytorch=2.15.0 + python=3.14 + torchvision numpy opencv-python anaconda (suggete
 # Configuration
 
 The project contains the following main directories and scripts:
-model/ – Defines the network architecture and model components.
 
+model/ – Defines the network architecture.
+
+period_detection/ – Implements periodicity detection.
+
+data_transform.py – Provides data preprocessing.
+
+load_data.py – Handles dataset loading.
+
+train.py – Implements the model training process.
+
+test.py – Performs model testing and evaluation.
+
+utils.py – Provides common utility functions.
 
